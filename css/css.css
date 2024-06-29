@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+div {
+    justify-content: space-between;
+    align-items: center; 
+}
+
+ header {
+    /* background-color: #4CAF50; */
+    background: #00252E;
+    color: white;
+     padding: 10px 20px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+/* Horizontal list styling */
+.horizontal-list {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0 20px;
+    padding: 4px, 208px, 4px, 208px;
+    display: flex; /*Use flexbox to align items horizontally */ 
+    justify-content: left; /*Center the list items */
+}
+
+.horizontal-list li {
+    margin: 0 15px; /* Space between list items */
+}
+.horizontal-list img {
+    align-items: flex-end;
+    /* width: 13.5px;
+    height: 13.5px;
+    top : 2.25px;
+    left : 2.25px; */
+    padding: 4px, 208px, 4px, 208px;
+    padding: 3px;
+}
+.logo {
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* gap: 16px; */
+    /* padding: 4px, 208px, 4px, 208px; */
+}.optionnn {
+    border: none;
+}
+.trending label {
+    margin-top: 10px;
+    text-align: right;
+    color: grey;
+    font-size: 12px;
+}
+.trending p {
+    font-size: 13px;
+    margin-top: 2px;
+}
+.trending h6 {
+    font-size: 8px;
+    margin-top: 2px;
+}
+.terbaru {
+    width: 762px;height: 162px;
+    margin-bottom: 12px;
+    display: flex;
+    text-align: left;
+}
+.terbaru img {
+    width: 200px;height: 160px;
+    border-radius: 8px;
+}
+.desc-terbaru {
+    margin-left: 10px;
+}
+
+.terbaru .desc-terbaru label {
+    font-size: 12px;
+    color: #939395;
+    line-height: 18px;
+}
+.terbaru .desc-terbaru p {
+    font-size: 16px;
+    color: #2E2E2E;
+    line-height: 24px;
+}
+.terbaru .desc-terbaru h6 {
+    font-size: 12px;
+    color: #2E2E2E;
+    line-height: 18px;
+}
+.terbaru .desc-terbaru p{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #2E2E2E;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rekomendasi {
+    background-color: #004E60;
+    border-radius: 8px;
+    width: 300px;
+    height: 800px;
+    justify-content: center;
+}
+.rekomendasi h2 {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+    /* background-color: pinkz; */
+}
+.imgg {
+   width: 206px; height: 126px; text-align: center;
+   justify-content: center;
+   padding: 12px 45px;
+}
+.rekomendasi img {
+    width: 206px;
+    height: 80px;
+}
+.rekomendasi p {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+.footer img {
+    width: 114px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+ .lingkaran {
+    padding: 2px;
+    gap: 0px;
+    border-radius: 99px;
+    opacity: 0px;
+    background-color: #DBF8FF;
+    width: 30px; height: 30∑px;
+}
+.footer ul img {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+} 
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./icon/pexels-david-gomes-2495160.png');
+    background-size: cover; /* Ensures the background image covers the container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
